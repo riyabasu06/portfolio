@@ -186,3 +186,33 @@ body {
     background-color: #3498db;
     color: #fff; /* White text on hover */
 }
+
+/* For smaller devices like mobile phones */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .profile-box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .portfolio-section {
+        width: 100%;
+        padding: 15px;
+    }
+    .tab {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    .project-card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
