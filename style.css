@@ -22,7 +22,6 @@ img {
 /* Container: Main Layout */
 .container {
     display: flex;
-    flex-wrap: wrap;
     height: 100%;
     width: 100%;
     max-width: 1300px;
@@ -168,7 +167,6 @@ img {
     font-size: 1rem;
     color: #3498db; /* Light blue for project descriptions */
 }
-
 
 
   
