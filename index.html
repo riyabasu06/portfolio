@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for the icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side: Profile Section -->
+        <aside class="profile-box">
+            <img src="assets/mypic.jpg" alt="Your Profile Picture" class="profile-img">
+            <div class="profile-info">
+                <h1>Riya Bose</h1>
+                <p>I am an M.Tech student.</p>
+                <div class="social-links">
+                    <a href="mailto:riya.bose@gmail.com" target="_blank">
+                        <i class="fab fa-google"></i> <!-- Gmail icon -->
+                    </a>                                                           
+                    <a href="https://linkedin.com/in/riya-bose" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/riya-bose" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <!-- Resume Button -->
+                <button class="hire-btn">
+                    <a href="assets/RiyaBose_MTech_Resume.pdf" download="RiyaBose_MTech_Resume.pdf" style="text-decoration: none; color: inherit;">Resume</a>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Right Side: Portfolio Section -->
+        <main class="portfolio-section">
+            <!-- Tabs for Projects and Blog -->
+            <div class="tabs">
+                <button class="tab" id="projects-tab" onclick="showTab('projects')">Projects</button>
+                <button class="tab" id="blog-tab" onclick="showTab('blog')">Blog</button>
+            </div>
+
+            <!-- Projects Content -->
+            <section class="projects-content" id="projects">
+                <div class="project-card">
+                    <img src="assets/art1.jpg" alt="Art 1">
+                    <p>Art 1</p>
+                    <p>Galene (2022)</p>
+                </div>
+                <div class="project-card">
+                    <img src="assets/art2.jpg" alt="Art 2">
+                    <p>Art 2</p>
+                    <p>Genie (2022)</p>
+                </div>
+            </section>
+
+            <!-- Blog Content -->
+            <section class="blog-content" id="blog" style="display: none;">
+                <p>No blog posts yet!</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
