@@ -22,6 +22,7 @@ img {
 /* Container: Main Layout */
 .container {
     display: flex;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
     max-width: 1300px;
@@ -169,20 +170,14 @@ img {
 }
 
 
-/* For mobile */
-@media (max-width: 768px) {
-    .your-container {
-        flex-direction: column;
+
+  
+  /* For smaller screens */
+  @media (max-width: 768px) {
+    .left-section,
+    .right-section {
+      width: 100%;  /* Stack sections vertically */
+      margin: 0;
     }
-    /* Your mobile-specific styles */
-}
+  }
 
-/* For tablet */
-@media (min-width: 768px) and (max-width: 1024px) {
-    /* Your tablet-specific styles */
-}
-
-/* For desktop */
-@media (min-width: 1024px) {
-    /* Your desktop-specific styles */
-}
