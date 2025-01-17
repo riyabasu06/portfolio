@@ -15,7 +15,10 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+  }  
 /* Container: Main Layout */
 .container {
     display: flex;
@@ -168,6 +171,9 @@ body {
 
 /* For mobile */
 @media (max-width: 768px) {
+    .your-container {
+        flex-direction: column;
+    }
     /* Your mobile-specific styles */
 }
 
