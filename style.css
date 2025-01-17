@@ -1,3 +1,4 @@
+
 /* Reset and Global Styles */
 * {
     margin: 0;
@@ -164,3 +165,18 @@ body {
     color: #3498db; /* Light blue for project descriptions */
 }
 
+
+/* For mobile */
+@media (max-width: 768px) {
+    /* Your mobile-specific styles */
+}
+
+/* For tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Your tablet-specific styles */
+}
+
+/* For desktop */
+@media (min-width: 1024px) {
+    /* Your desktop-specific styles */
+}
